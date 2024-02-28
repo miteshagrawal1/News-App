@@ -1,0 +1,73 @@
+@media only screen and (max-width:1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        /* top: 0; */
+        padding-top: 7px;
+        min-height: 15vh;
+    }
+    .lefttop{
+        font-size: 1.8em;
+    }
+    .lefttopcont{
+        width: 60%;
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .leftcountries{
+        flex-wrap: wrap;
+    }
+    .left ul li button, .left ul li{
+        font-size: 0.9em;
+    }
+    #currentnews{
+        font-size: 0.9em;
+    }
+    .left ul{
+        flex-direction: row;
+        min-height: 4vh;
+    }
+    .leftmiddle{
+        width: 20vw;
+    }
+    .right nav{
+        width: 100vw;
+        /* position: sticky; */
+        display: flex;
+        /* top: 14vh; */
+        justify-content: space-between;
+        padding-left: 1.2em;
+        font-size: 0.8em;
+    }
+    .cardscont{
+        width: 100%;
+        min-height: 80vh;
+    }
+    .cardbox{
+        width: 30%;
+        overflow: hidden;
+        min-height: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .right ul li button{
+        width: -webkit-fill-available;
+    }
+    .titleofnews{
+        font-size: 1em;
+    }
+    .descofnews{
+        font-size: 0.8em;
+    }
+    .author{
+        font-size: 0.8em;
+    }
+}
